@@ -41,12 +41,12 @@ class CustomCell: UITableViewCell {
         
         private lazy var dividerView: UIView = {
             let view = UIView()
-            view.backgroundColor = .black
+            view.backgroundColor = .white
             return view
         }()
         
     override func layoutSubviews() {
-        
+        setupConstraints()
     }
     
     private func setupConstraints () {
